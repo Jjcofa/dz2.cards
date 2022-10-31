@@ -37,7 +37,7 @@
     overflow: hidden;
 }
 .title {
-    position: absolute;
+    position: relative;
     width: 200px;
     height: 22px;
     font-style: normal;
@@ -50,7 +50,7 @@
     overflow: hidden;
 }
 .description {
-    position: absolute;
+    position: relative;
     width: 200px;
     height: 36px;
     font-style: normal;
@@ -59,6 +59,6 @@
     line-height: 18px;
     text-align: center;
     color: #000000;
-    margin-top: 172px;
     overflow: hidden;
+    margin-top: -10px;
 }
