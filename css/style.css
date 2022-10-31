@@ -1,15 +1,19 @@
 .body {
     font-family: 'Roboto', sans-serif;
 }
+.container {
+    max-width: 80%;
+}
 .card_parent {
-    display: inline-block;
     font-family: 'Roboto';
+    display: inline-block;
     position: relative;
     width: 200px;
     height: 226px;
     background-color: #E0E0E0;
     margin-left: 30px;
     margin-top: 30px;
+
 }
 .card_child {
     font-family: 'Roboto';
@@ -20,15 +24,17 @@
     background: #C4C4C4;
 }
 .image {
-
+    position: absolute;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     text-align: center;
     margin-top: 56px;
+    margin-left: 46px;
+    margin-right: 45px;
     color: #FFFFFF;
-
+    overflow: hidden;
 }
 .title {
     position: absolute;
@@ -41,6 +47,7 @@
     text-align: center;
     color: #000000;
     margin-top: 140px;
+    overflow: hidden;
 }
 .description {
     position: absolute;
@@ -53,5 +60,5 @@
     text-align: center;
     color: #000000;
     margin-top: 172px;
-
+    overflow: hidden;
 }
